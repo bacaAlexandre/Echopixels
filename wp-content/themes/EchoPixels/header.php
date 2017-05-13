@@ -14,3 +14,4 @@ error_reporting(E_ALL | E_STRICT)
   </head>
   <body>
     <!-- Mettre la nav ici -->
+    <?php wp_nav_menu( array( 'theme_location' => 'Top' ) ); ?>
