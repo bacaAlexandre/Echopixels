@@ -1,4 +1,30 @@
 /* line 1, ../scss/mainstyle.scss */
-body {
-  font-size: 30px;
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+/* -----------------------------------------------
+  HEADER
+----------------------------------------------- */
+.logo {
+  width: 15%;
+}
+
+.menu {
+  display: inline-block;
+  font-size: 22px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.page_item {
+  margin-left: 50px;
 }

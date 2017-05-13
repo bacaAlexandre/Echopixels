@@ -13,5 +13,9 @@ error_reporting(E_ALL | E_STRICT)
     <title>Echo Pixels</title>
   </head>
   <body>
-    <!-- Mettre la nav ici -->
-    <?php wp_nav_menu( array( 'theme_location' => 'Top' ) ); ?>
+    <header>
+      <img class= "logo" src="../../../wp-includes/images/echopixels/echoPixels.jpg" alt="">
+      <!-- Mettre la nav ici -->
+      <?php wp_nav_menu( array( 'theme_location' => 'Top' ) ); ?>
+
+    </header>

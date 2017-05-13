@@ -5,7 +5,7 @@ Template Name: Accueil
   get_header();
  ?>
  <section>
-   <p>Salut</p>
+   <p>accueil</p>
  </section>
 
 
