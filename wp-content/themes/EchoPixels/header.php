@@ -9,7 +9,7 @@ error_reporting(E_ALL | E_STRICT)
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Exo:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Exo:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <?php wp_head(); ?>
     <title>Echo Pixels</title>
   </head>
@@ -17,6 +17,9 @@ error_reporting(E_ALL | E_STRICT)
     <header>
       <img class= "logo" src="../../../wp-includes/images/echopixels/echoPixels.jpg" alt="">
       <!-- Mettre la nav ici -->
-      <?php wp_nav_menu( array( 'theme_location' => 'Top' ) ); ?>
-
+      <?php wp_nav_menu( array()); ?>
+      <div class="lien_association">
+        <a href="" target="_blank" class="icone bleu"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="" target="_blank" class="icone bleu"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      </div>
     </header>

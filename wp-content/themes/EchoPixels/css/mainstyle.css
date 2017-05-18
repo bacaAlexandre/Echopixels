@@ -32,6 +32,11 @@ main {
 /* -----------------------------------------------
   HEADER
 ----------------------------------------------- */
+header{
+  width: 90%;
+  margin: auto;
+
+}
 .logo {
   width: 15%;
 }
@@ -46,8 +51,22 @@ main {
   display: flex;
 }
 
+.menu a {
+  color: #273d4f;
+}
 .page_item {
-  margin-left: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-left: 1px solid #273d4f;
+}
+
+.menu ul:last-child {
+  border-right: 1px solid #273d4f;
+}
+
+.lien_association{
+  font-size: 2.5em;
+  float: right;
 }
 /* -----------------------------------------------
   Page membres
