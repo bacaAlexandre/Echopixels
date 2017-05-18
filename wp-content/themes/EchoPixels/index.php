@@ -6,7 +6,7 @@ Template Name: Accueil
  ?>
  <section>
   <div class="banniere">
-   <img src="../../wp-includes/images/echopixels/fond_accueil.jpg" alt="banniere_bienvenue">
+   <img src="<?php echo get_template_directory_uri(); ?>/image/fond_accueil.jpg" alt="banniere_bienvenue">
       <h1>Bienvenue</h1>
       <p>sur le site de l'association des anciens élèves de la formation WebForce 3 Développeur / Intégrateur Web</p>
       <h2>Une association numérique au coeur du Bassin Dieppois</h2>
@@ -16,7 +16,7 @@ Template Name: Accueil
  <section>
     <div class="presentation">
         <div class="img_association">
-            <img src="../../wp-includes/images/echopixels/groupe_asso.jpg" alt="photo de groupe de l'association">
+            <img src="<?php echo get_template_directory_uri(); ?>/image/groupe_asso.jpg" alt="photo de groupe de l'association">
         </div>
         <div>
             <p>L'association lorem ipsum</p>
@@ -34,7 +34,7 @@ Template Name: Accueil
 
  <section>
     <h4>CONTACTEZ-NOUS</h4>
-    <img src="../../wp-includes/images/echopixels/mail.jpg">
+    <img src="<?php echo get_template_directory_uri(); ?>/image/mail.jpg">
     <a mailto="echopixels@gmail.com">echopixels@gmail.com</a>
     <br>
      <p>ECH<O> PIXELS - Tout droit réservés - <a href="#">Mention légales</a></O></p>
