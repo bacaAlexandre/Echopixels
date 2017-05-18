@@ -28,3 +28,26 @@ html {
 .page_item {
   margin-left: 50px;
 }
+
+
+
+/* -----------------------------------------------
+  Page membres
+----------------------------------------------- */
+
+.bloc_membres{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.profile{
+  flex: 1;
+  border: 2px solid black;
+  text-align: center;
+  margin: 5%;
+}
+
+.profile img{
+  max-width: 200px;
+}

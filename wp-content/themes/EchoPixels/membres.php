@@ -8,25 +8,30 @@
  <section>
    <p>Page membres</p>
 
+   <div class="bloc_membres">
+
 
    <?php
-  //  $liste_user = $wpdb->get_results("SELECT ID
-  //    FROM {$wpdb->prefix}users", ARRAY_A);
-    //  var_dump($liste_user);
+
     $liste_user = get_users();
-    // var_dump($liste_user);
      for ($i=2; $i <=count($liste_user) ; $i++) { ?>
-       <div class="">
-         <p>Nom :<?php the_author_meta('first_name', $i) ?></p>
-         <p>Prenom :<?php the_author_meta('last_name', $i) ?></p>
-         <p>Site perso :<?php the_author_meta('site perso', $i) ?></p>
-         <p>Linkdin :<?php the_author_meta('linkdIn', $i) ?></p>
-         <p>Twitter : <?php the_author_meta('twitter', $i) ?></p>
-         <a href="<?php the_author_meta('cv', $i) ?>" target="_blank">CV</a>
+       <div class="profile">
+         <p><?php the_author_meta('poste', $i) ?></p>
+         <img src="<?php the_author_meta('photo', $i) ?>" alt="">
+         <p><?php the_author_meta('last_name', $i) ?></p>
+         <p><?php the_author_meta('first_name', $i) ?></p>
+         <p><?php the_author_meta('site_perso', $i) ?></p>
+
+
+         <a href="<?php the_author_meta('twitter', $i) ?>" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+         <a href="<?php the_author_meta('linkedin', $i) ?>" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+         <a href="<?php the_author_meta('cv', $i) ?>" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
        </div>
     <?php }
 
     ?>
+  </div>
  </section>
 
 
