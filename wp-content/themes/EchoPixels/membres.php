@@ -5,22 +5,17 @@
   */
   get_header();
  ?>
- <section>
-   <p>Page membres</p>
-
+ <main>
    <div class="bloc_membres">
-
-
-   <?php
-
-    $liste_user = get_users();
+     <?php
+     $liste_user = get_users();
      for ($i=2; $i <=count($liste_user) ; $i++) { ?>
        <div class="wrapper_profile">
-         <p><?php the_author_meta('poste', $i) ?></p>
+         <p class="rouge"><span class="vert"> < </span> <?php the_author_meta('poste', $i) ?> <span class ="vert"> > </span></p>
          <div class="profile">
            <img src="<?php the_author_meta('photo', $i) ?>" alt="">
            <div class="info">
-             <p>
+             <p class="bleu">
                <?php the_author_meta('last_name', $i) ?>
                <?php the_author_meta('first_name', $i) ?>
              </p>
@@ -29,43 +24,19 @@
 
              <div class="liens">
                <div class="">
-                 <a href="<?php the_author_meta('twitter', $i) ?>" target="_blank" class="icone"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                 <a href="<?php the_author_meta('linkedin', $i) ?>" target="_blank" class="icone"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                 <a href="<?php the_author_meta('twitter', $i) ?>" target="_blank" class="icone bleu"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                 <a href="<?php the_author_meta('linkedin', $i) ?>" target="_blank" class="icone bleu"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                </div>
-               <a href="<?php the_author_meta('cv', $i) ?>" target="_blank" class="cv" class="icone"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+               <a href="<?php the_author_meta('cv', $i) ?>" target="_blank" class="cv rouge" class="icone"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
              </div>
            </div>
          </div>
        </div>
-    <?php }
+       <?php }
+       ?>
+     </div>
+ </main>
 
-    ?>
-  </div>
- </section>
-
-
- <section>
-
- </section>
-
-
-
- <section>
-
- </section>
-
-
-
- <section>
-
- </section>
-
-
-
-
- <section>
-
- </section>
 
  <?php
  get_footer();

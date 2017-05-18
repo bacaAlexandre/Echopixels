@@ -9,8 +9,25 @@ html {
   box-sizing: inherit;
 }
 
-html, body {
+body,
+html {
   font-family: 'Exo', sans-serif;
+}
+
+main {
+  background-color: #273d4f;
+}
+
+.bleu {
+  color: #273d4f;
+}
+
+.rouge {
+  color: #e54d66;
+}
+
+.vert {
+  color: #41bca0;
 }
 /* -----------------------------------------------
   HEADER
@@ -32,38 +49,42 @@ html, body {
 .page_item {
   margin-left: 50px;
 }
-
-
-
 /* -----------------------------------------------
   Page membres
 ----------------------------------------------- */
-
-.bloc_membres{
+.bloc_membres {
   display: flex;
   width: 80%;
   margin: auto;
 }
 
-.wrapper_profile{
+.wrapper_profile {
   max-width: 300px;
   margin: 5%;
   text-align: center;
+  font-size: 1.2em;
 }
 
-.profile{
+.wrapper_profile span {
+  font-weight: bolder;
+}
+.profile {
   padding: 10px;
-  border: 2px solid black;
-
+  background-color: #41bca0;
+  color: white;
 }
-.profile img{
+
+.profile img {
   max-width: 100%;
 }
 
 .info {
+  padding-top: 5px;
   text-align: left;
 }
+
 .liens {
   display: flex;
   justify-content: space-between;
+  font-size: 2em;
 }
