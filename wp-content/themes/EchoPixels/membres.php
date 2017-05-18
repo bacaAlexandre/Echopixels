@@ -23,8 +23,10 @@
            <?php  }?>
            <div class="info">
              <p class="bleu">
-               <?php the_author_meta('last_name', $i) ?>
-               <?php the_author_meta('first_name', $i) ?>
+               <strong>
+                 <?php the_author_meta('last_name', $i) ?>
+                 <?php the_author_meta('first_name', $i) ?>
+               </strong>
              </p>
              <p><?php the_author_meta('description', $i) ?></p>
              <p><?php the_author_meta('site_perso', $i) ?></p>
@@ -37,7 +39,7 @@
                  <?php if (get_the_author_meta('linkedin', $i) != '') { ?>
                    <a href="<?php the_author_meta('linkedin', $i) ?>" target="_blank" class="icone bleu"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                  <?php } ?>
-                 
+
                </div>
                <!--condition pour savoir si il y a le lien du cv  -->
                <?php if (get_the_author_meta('cv', $i) != '') { ?>
