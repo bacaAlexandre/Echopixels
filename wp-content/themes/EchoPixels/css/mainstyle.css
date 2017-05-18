@@ -8,6 +8,10 @@ html {
 *::before {
   box-sizing: inherit;
 }
+
+html, body {
+  font-family: 'Exo', sans-serif;
+}
 /* -----------------------------------------------
   HEADER
 ----------------------------------------------- */
@@ -41,13 +45,25 @@ html {
   margin: auto;
 }
 
-.profile{
-  flex: 1;
-  border: 2px solid black;
-  text-align: center;
+.wrapper_profile{
+  max-width: 300px;
   margin: 5%;
+  text-align: center;
 }
 
+.profile{
+  padding: 10px;
+  border: 2px solid black;
+
+}
 .profile img{
-  max-width: 200px;
+  max-width: 100%;
+}
+
+.info {
+  text-align: left;
+}
+.liens {
+  display: flex;
+  justify-content: space-between;
 }

@@ -15,18 +15,27 @@
 
     $liste_user = get_users();
      for ($i=2; $i <=count($liste_user) ; $i++) { ?>
-       <div class="profile">
+       <div class="wrapper_profile">
          <p><?php the_author_meta('poste', $i) ?></p>
-         <img src="<?php the_author_meta('photo', $i) ?>" alt="">
-         <p><?php the_author_meta('last_name', $i) ?></p>
-         <p><?php the_author_meta('first_name', $i) ?></p>
-         <p><?php the_author_meta('site_perso', $i) ?></p>
+         <div class="profile">
+           <img src="<?php the_author_meta('photo', $i) ?>" alt="">
+           <div class="info">
+             <p>
+               <?php the_author_meta('last_name', $i) ?>
+               <?php the_author_meta('first_name', $i) ?>
+             </p>
+             <p><?php the_author_meta('description', $i) ?></p>
+             <p><?php the_author_meta('site_perso', $i) ?></p>
 
-
-         <a href="<?php the_author_meta('twitter', $i) ?>" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-         <a href="<?php the_author_meta('linkedin', $i) ?>" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-
-         <a href="<?php the_author_meta('cv', $i) ?>" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+             <div class="liens">
+               <div class="">
+                 <a href="<?php the_author_meta('twitter', $i) ?>" target="_blank" class="icone"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                 <a href="<?php the_author_meta('linkedin', $i) ?>" target="_blank" class="icone"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+               </div>
+               <a href="<?php the_author_meta('cv', $i) ?>" target="_blank" class="cv" class="icone"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+             </div>
+           </div>
+         </div>
        </div>
     <?php }
 
