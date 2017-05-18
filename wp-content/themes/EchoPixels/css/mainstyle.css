@@ -68,6 +68,79 @@ header{
   font-size: 2.5em;
   float: right;
 }
+
+/* -----------------------------------------------
+  INDEX
+----------------------------------------------- */
+
+.banniere img{
+  width: 100%;
+}
+
+.bloc_bleu {
+  padding: 5em;
+  background-color : #273d4f;
+}
+
+.presentation {
+  width:100%;
+  background-color : #273d4f;
+  border: solid 20px #41bca0;
+  display: flex;
+  width: 100%;
+}
+
+.text_presentation {
+  padding: 1em;
+}
+
+.img_association img {
+
+}
+
+.text_presentation {
+  color: #41bca0;
+  font-size: 1.3em;
+}
+
+.bloc_blanc {
+  padding: 5em;
+}
+
+.wrapper {
+  width:100%;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper h2 {
+  text-decoration: underline #41bca0;
+  font-size: 2.5em;
+}
+
+.wrapper p {
+  font-size: 1.7em;
+}
+
+.wrapper_gauche {
+  text-align: right;
+
+}
+
+.wrapper_droite {
+  text-align: left;
+}
+
+.bloc_bleu h4 {
+  color: #41bca0;
+  font-size: 3em;
+  text-align: center;
+}
+
+.bloc_bleu a {
+  text-align: center;
+}
+
 /* -----------------------------------------------
   Page membres
 ----------------------------------------------- */
