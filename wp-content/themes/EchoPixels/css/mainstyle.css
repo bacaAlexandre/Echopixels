@@ -9,6 +9,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-image: url("../image/pixel_weave.png");
+}
+
 body,
 html {
   font-family: 'Exo', sans-serif;
@@ -33,12 +37,18 @@ main {
   HEADER
 ----------------------------------------------- */
 header{
-  width: 90%;
-  margin: auto;
+
+  margin: 0 auto;
+  padding: 1.25rem 1.25rem 0 1.25rem;
+  min-width: 320px;
+  max-width: 80%;
+  background-color: white;
+  clear: both;
 
 }
 .logo {
-  width: 15%;
+  max-width: 15%;
+  padding: 2rem;
 }
 
 .menu {
@@ -73,6 +83,17 @@ header{
   INDEX
 ----------------------------------------------- */
 
+section {
+ width: 100%;
+}
+
+.index_content {
+  margin: 0 auto;
+  min-height: 600px;
+  min-width: 320px;
+  max-width: 80%;
+}
+
 .banniere img{
   width: 100%;
 }
@@ -83,19 +104,24 @@ header{
 }
 
 .presentation {
-  width:100%;
+
   background-color : #273d4f;
   border: solid 20px #41bca0;
   display: flex;
-  width: 100%;
+
 }
 
 .text_presentation {
   padding: 1em;
+  max-width: 50%;
+}
+
+.img_association {
+ width: 50%;
 }
 
 .img_association img {
-
+  width:100%;
 }
 
 .text_presentation {
@@ -104,13 +130,16 @@ header{
 }
 
 .bloc_blanc {
-  padding: 5em;
+  padding: 2em;
+  background-color: white;
 }
 
 .wrapper {
-  width:100%;
+  max-width:100%;
+  min-height: 450px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .wrapper h2 {
@@ -119,27 +148,21 @@ header{
 }
 
 .wrapper p {
-  font-size: 1.7em;
+  font-size: 1.2em;
 }
 
 .wrapper_gauche {
-  text-align: right;
-
-}
-
-.wrapper_droite {
   text-align: left;
 }
 
-.bloc_bleu h4 {
-  color: #41bca0;
-  font-size: 3em;
-  text-align: center;
+.wrapper_centre img {
+  max-width: 100%;
 }
 
-.bloc_bleu a {
-  text-align: center;
+.wrapper_droite {
+  text-align: right;
 }
+
 
 /* -----------------------------------------------
   Page membres
@@ -180,4 +203,47 @@ header{
   display: flex;
   justify-content: space-between;
   font-size: 2em;
+}
+
+/* -----------------------------------------------
+  FOOTER
+----------------------------------------------- */
+
+footer {
+  background-color: #273d4f;
+  text-align: center;
+  padding: 1.25rem 0 1.25rem 0;
+  min-height: 350px;
+}
+
+footer h4 {
+  color: #41bca0;
+  font-size: 3em;
+  text-align: center;
+  padding: 1.25rem 0 1.25rem 0;
+}
+
+footer p,
+h1,
+i {
+  color: white;
+  font-size: 2.25rem;
+}
+
+footer a {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+}
+
+footer p a {
+  color: #e54d66;
+}
+
+.footer_mail {
+  margin-bottom: 3rem;
+}
+
+.footer_mention {
+  margin-top: 8rem;
 }

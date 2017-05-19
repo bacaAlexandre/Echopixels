@@ -15,7 +15,7 @@ error_reporting(E_ALL | E_STRICT)
   </head>
   <body>
     <header>
-      <img class= "logo" src="<?php echo get_template_directory_uri(); ?>/image/echoPixels.jpg" alt="">
+      <img class= "logo" src="<?php echo get_template_directory_uri(); ?>/image/echoPixels.png" alt="">
       <!-- Mettre la nav ici -->
       <?php wp_nav_menu( array()); ?>
       <div class="lien_association">

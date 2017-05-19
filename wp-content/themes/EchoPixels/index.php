@@ -4,6 +4,8 @@ Template Name: Accueil
 */
   get_header();
  ?>
+<div class="index_content">
+
  <section>
   <div class="banniere">
    <img src="<?php echo get_template_directory_uri(); ?>/image/fond_accueil.jpg" alt="banniere_bienvenue">
@@ -33,7 +35,7 @@ Template Name: Accueil
             <h2>La réalisation di sites et d'applications</h2>
             <p>accompagnement d'associations dans la réalisation de sites internet "vitrine" ou d'application moyennant une adhésion en tant que membre biendaiteur</p>
         </div>
-        <div>
+        <div class="wrapper_centre">
             <img src="<?php echo get_template_directory_uri(); ?>/image/echopixels_logo.png">
         </div>
         <div class="wrapper_droite">
@@ -46,24 +48,7 @@ Template Name: Accueil
         </div>
     </div>
  </section>
-
-
-
- <section class="bloc_bleu">
-    <h4>CONTACTEZ-NOUS</h4>
-    <img src="<?php echo get_template_directory_uri(); ?>/image/mail.jpg">
-    <a mailto="echopixels@gmail.com">echopixels@gmail.com</a>
-    <br>
-     <p>ECHO PIXELS - Tout droit réservés - <a href="#">Mention légales</a></></p>
- </section>
-
-
-
-
- <section>
-
- </section>
-
+</div>
  <?php
  get_footer();
   ?>
