@@ -11,6 +11,11 @@ html {
 
 body {
   background-image: url("../image/pixel_weave.png");
+  margin: 0 auto;
+  padding: 1.25rem 1.25rem 0 1.25rem;
+  min-width: 320px;
+  max-width: 80%;
+  background-color: white;
 }
 
 body,
@@ -37,18 +42,19 @@ main {
   HEADER
 ----------------------------------------------- */
 header{
-
-  margin: 0 auto;
-  padding: 1.25rem 1.25rem 0 1.25rem;
-  min-width: 320px;
-  max-width: 80%;
+  padding: 1.25rem 1.25rem 0.5rem 1.25rem;
   background-color: white;
-  clear: both;
-
+  display: flex;
+  align-items: center;
 }
+
 .logo {
-  max-width: 15%;
-  padding: 2rem;
+  width: 20%;
+  padding: 1rem;
+}
+
+.logo img {
+  max-width: 100%;
 }
 
 .menu {
@@ -79,6 +85,43 @@ header{
   float: right;
 }
 
+.lien_association i {
+  color : #273d4f;
+}
+
+/* -----------------------------------------------
+  RESPONSIVE --- HEADER
+----------------------------------------------- */
+
+@media screen and (max-width:1540px) {
+  .logo {
+
+  }
+
+  .logo img {
+
+  }
+}
+
+@media screen and (max-width:450px) {
+
+  .logo {
+    width: 50%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .logo img {
+    max-width: 100%;
+  }
+
+  .menu_header {
+    display: none;
+  }
+
+}
+
+
 /* -----------------------------------------------
   INDEX
 ----------------------------------------------- */
@@ -88,14 +131,15 @@ section {
 }
 
 .index_content {
-  margin: 0 auto;
   min-height: 600px;
-  min-width: 320px;
-  max-width: 80%;
+}
+
+.banniere {
+  background-color: white;
 }
 
 .banniere img{
-  width: 100%;
+  max-width: 100%;
 }
 
 .bloc_bleu {
@@ -163,6 +207,80 @@ section {
   text-align: right;
 }
 
+/* -----------------------------------------------
+  RESPONSIVE --- INDEX
+----------------------------------------------- */
+
+@media screen and (max-width:1540px) {
+
+  body {
+    min-width: 320px;
+    max-width: 100%;
+    padding: 0;
+    font-size: 1em;
+  }
+
+  .presentation {
+    display:inline;
+    width: 100%;
+    border: none;
+
+  }
+
+  .text_presentation {
+   max-width: 100%;
+    text-align: center;
+  }
+
+  .img_association {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .bloc_bleu {
+    padding: 2em;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .wrapper_gauche, .wrapper_droite {
+    text-align: center;
+  }
+
+  .wrapper_centre {
+    width: 100%;
+    text-align: center;
+     }
+
+  .wrapper_centre img {
+    max-width: 80%;
+  }
+
+}
+
+@media screen and (max-width:450px) {
+
+  body {
+    min-width: 320px;
+    max-width: 100%;
+    padding: 0;
+    font-size: 1em;
+  }
+
+  .img_association {
+    width: 100%;
+  }
+
+  .wrapper_centre {
+    width: 100%;
+  }
+
+
+
+}
+
 
 /* -----------------------------------------------
   Page membres
@@ -209,41 +327,52 @@ section {
   FOOTER
 ----------------------------------------------- */
 
-footer {
+.style_footer {
   background-color: #273d4f;
   text-align: center;
   padding: 1.25rem 0 1.25rem 0;
   min-height: 350px;
+  font-size: 1.3em;
 }
 
-footer h4 {
+.style_footer h4 {
   color: #41bca0;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
   padding: 1.25rem 0 1.25rem 0;
 }
 
-footer p,
+.style_footer p,
 h1,
 i {
   color: white;
-  font-size: 2.25rem;
 }
 
-footer a {
+.style_footer a {
   text-align: center;
   color: white;
-  font-size: 2.5rem;
 }
 
-footer p a {
+.style_footer p a {
   color: #e54d66;
 }
 
 .footer_mail {
-  margin-bottom: 3rem;
+  margin-bottom: 1.8em;
 }
 
 .footer_mention {
   margin-top: 8rem;
+}
+
+
+/* -----------------------------------------------
+  RESPONSIVE --- FOOTER
+----------------------------------------------- */
+
+@media screen and (max-width:450px) {
+  .style_footer {
+    font-size: 1em;
+    min-height: inherit;
+  }
 }

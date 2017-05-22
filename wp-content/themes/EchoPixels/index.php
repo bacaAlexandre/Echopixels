@@ -32,7 +32,7 @@ Template Name: Accueil
             <p>perfectionnement des compétences acquises durant la formation de développeur/intégrateur web</p>
             <h2>L'insertion professionnelle</h2>
             <p>des anciens élèves de l'école de codeur d'Arques la Bataille</p>
-            <h2>La réalisation di sites et d'applications</h2>
+            <h2>La réalisation des sites et d'applications</h2>
             <p>accompagnement d'associations dans la réalisation de sites internet "vitrine" ou d'application moyennant une adhésion en tant que membre biendaiteur</p>
         </div>
         <div class="wrapper_centre">
