@@ -343,8 +343,8 @@ section {
 }
 
 .style_footer p,
-h1,
-i {
+.style_footer h1,
+.style_footer i {
   color: white;
 }
 
