@@ -42,15 +42,19 @@ main {
   HEADER
 ----------------------------------------------- */
 header{
-
-  padding: 1.25rem 1.25rem 0 1.25rem;
+  padding: 1.25rem 1.25rem 0.5rem 1.25rem;
   background-color: white;
-
-
+  display: flex;
+  align-items: center;
 }
+
 .logo {
-  max-width: 15%;
-  padding: 2rem;
+  width: 20%;
+  padding: 1rem;
+}
+
+.logo img {
+  max-width: 100%;
 }
 
 .menu {
@@ -81,6 +85,43 @@ header{
   float: right;
 }
 
+.lien_association i {
+  color : #273d4f;
+}
+
+/* -----------------------------------------------
+  RESPONSIVE --- HEADER
+----------------------------------------------- */
+
+@media screen and (max-width:1540px) {
+  .logo {
+
+  }
+
+  .logo img {
+
+  }
+}
+
+@media screen and (max-width:450px) {
+
+  .logo {
+    width: 50%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .logo img {
+    max-width: 100%;
+  }
+
+  .menu_header {
+    display: none;
+  }
+
+}
+
+
 /* -----------------------------------------------
   INDEX
 ----------------------------------------------- */
@@ -93,8 +134,12 @@ section {
   min-height: 600px;
 }
 
+.banniere {
+  background-color: white;
+}
+
 .banniere img{
-  width: 100%;
+  max-width: 100%;
 }
 
 .bloc_bleu {
@@ -162,6 +207,80 @@ section {
   text-align: right;
 }
 
+/* -----------------------------------------------
+  RESPONSIVE --- INDEX
+----------------------------------------------- */
+
+@media screen and (max-width:1540px) {
+
+  body {
+    min-width: 320px;
+    max-width: 100%;
+    padding: 0;
+    font-size: 1em;
+  }
+
+  .presentation {
+    display:inline;
+    width: 100%;
+    border: none;
+
+  }
+
+  .text_presentation {
+   max-width: 100%;
+    text-align: center;
+  }
+
+  .img_association {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .bloc_bleu {
+    padding: 2em;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .wrapper_gauche, .wrapper_droite {
+    text-align: center;
+  }
+
+  .wrapper_centre {
+    width: 100%;
+    text-align: center;
+     }
+
+  .wrapper_centre img {
+    max-width: 80%;
+  }
+
+}
+
+@media screen and (max-width:450px) {
+
+  body {
+    min-width: 320px;
+    max-width: 100%;
+    padding: 0;
+    font-size: 1em;
+  }
+
+  .img_association {
+    width: 100%;
+  }
+
+  .wrapper_centre {
+    width: 100%;
+  }
+
+
+
+}
+
 
 /* -----------------------------------------------
   Page membres
@@ -213,11 +332,12 @@ section {
   text-align: center;
   padding: 1.25rem 0 1.25rem 0;
   min-height: 350px;
+  font-size: 1.3em;
 }
 
 .style_footer h4 {
   color: #41bca0;
-  font-size: 2.5em;
+  font-size: 2em;
   text-align: center;
   padding: 1.25rem 0 1.25rem 0;
 }
@@ -226,13 +346,11 @@ section {
 h1,
 i {
   color: white;
-  font-size: 2rem;
 }
 
 .style_footer a {
   text-align: center;
   color: white;
-  font-size: 2rem;
 }
 
 .style_footer p a {
@@ -240,9 +358,20 @@ i {
 }
 
 .footer_mail {
-  margin-bottom: 3rem;
+  margin-bottom: 1.8em;
 }
 
 .footer_mention {
   margin-top: 8rem;
+}
+
+/* -----------------------------------------------
+  RESPONSIVE --- FOOTER
+----------------------------------------------- */
+
+@media screen and (max-width:450px) {
+  .style_footer {
+    font-size: 1em;
+    min-height: inherit;
+  }
 }

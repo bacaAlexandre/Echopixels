@@ -15,9 +15,13 @@ error_reporting(E_ALL | E_STRICT)
   </head>
   <body>
     <header>
-      <img class= "logo" src="<?php echo get_template_directory_uri(); ?>/image/echoPixels.png" alt="">
+      <div class="logo">
+        <img src="<?php echo get_template_directory_uri(); ?>/image/echoPixels.png" alt="">
+      </div>
       <!-- Mettre la nav ici -->
-      <?php wp_nav_menu( array()); ?>
+      <div class="menu_header">
+        <?php wp_nav_menu( array()); ?>
+      </div>
       <div class="lien_association">
         <a href="" target="_blank" class="icone bleu"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
         <a href="" target="_blank" class="icone bleu"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
