@@ -139,7 +139,7 @@ section {
 }
 
 .banniere img{
-  max-width: 100%;
+  width: 100%;
 }
 
 .bloc_bleu {
@@ -263,7 +263,6 @@ section {
 @media screen and (max-width:450px) {
 
   body {
-    min-width: 320px;
     max-width: 100%;
     padding: 0;
     font-size: 1em;
