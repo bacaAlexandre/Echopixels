@@ -12,7 +12,7 @@ html {
 body {
   background-image: url("../image/pixel_weave.png");
   margin: 0 auto;
-  padding: 1.25rem 1.25rem 0 1.25rem;
+  padding: 1.25rem 1.25rem 0;
   min-width: 320px;
   max-width: 80%;
   background-color: white;
@@ -41,11 +41,12 @@ main {
 /* -----------------------------------------------
   HEADER
 ----------------------------------------------- */
-header{
-  padding: 1.25rem 1.25rem 0.5rem 1.25rem;
+header {
+  padding: 1.25rem 1.25rem 0.5rem;
   background-color: white;
   display: flex;
   align-items: center;
+
 }
 
 .logo {
@@ -70,6 +71,7 @@ header{
 .menu a {
   color: #273d4f;
 }
+
 .page_item {
   padding-left: 25px;
   padding-right: 25px;
@@ -80,31 +82,15 @@ header{
   border-right: 1px solid #273d4f;
 }
 
-.lien_association{
-  font-size: 2.5em;
-  float: right;
-}
-
-.lien_association i {
-  color : #273d4f;
-}
-
 /* -----------------------------------------------
   RESPONSIVE --- HEADER
 ----------------------------------------------- */
-
 @media screen and (max-width:1540px) {
-  .logo {
+  .logo {}
 
-  }
-
-  .logo img {
-
-  }
+  .logo img {}
 }
-
 @media screen and (max-width:450px) {
-
   .logo {
     width: 50%;
     padding: 0;
@@ -118,16 +104,12 @@ header{
   .menu_header {
     display: none;
   }
-
 }
-
-
 /* -----------------------------------------------
   INDEX
 ----------------------------------------------- */
-
 section {
- width: 100%;
+  width: 100%;
 }
 
 .index_content {
@@ -138,21 +120,19 @@ section {
   background-color: white;
 }
 
-.banniere img{
+.banniere img {
   width: 100%;
 }
 
 .bloc_bleu {
   padding: 5em;
-  background-color : #273d4f;
+  background-color: #273d4f;
 }
 
 .presentation {
-
-  background-color : #273d4f;
+  background-color: #273d4f;
   border: solid 20px #41bca0;
   display: flex;
-
 }
 
 .text_presentation {
@@ -161,11 +141,11 @@ section {
 }
 
 .img_association {
- width: 50%;
+  width: 50%;
 }
 
 .img_association img {
-  width:100%;
+  width: 100%;
 }
 
 .text_presentation {
@@ -179,7 +159,7 @@ section {
 }
 
 .wrapper {
-  max-width:100%;
+  max-width: 100%;
   min-height: 450px;
   display: flex;
   align-items: center;
@@ -206,13 +186,10 @@ section {
 .wrapper_droite {
   text-align: right;
 }
-
 /* -----------------------------------------------
   RESPONSIVE --- INDEX
 ----------------------------------------------- */
-
 @media screen and (max-width:1540px) {
-
   body {
     min-width: 320px;
     max-width: 100%;
@@ -221,14 +198,13 @@ section {
   }
 
   .presentation {
-    display:inline;
+    display: inline;
     width: 100%;
     border: none;
-
   }
 
   .text_presentation {
-   max-width: 100%;
+    max-width: 100%;
     text-align: center;
   }
 
@@ -245,23 +221,21 @@ section {
     flex-direction: column;
   }
 
-  .wrapper_gauche, .wrapper_droite {
+  .wrapper_droite,
+  .wrapper_gauche {
     text-align: center;
   }
 
   .wrapper_centre {
     width: 100%;
     text-align: center;
-     }
+  }
 
   .wrapper_centre img {
     max-width: 80%;
   }
-
 }
-
 @media screen and (max-width:450px) {
-
   body {
     max-width: 100%;
     padding: 0;
@@ -275,12 +249,7 @@ section {
   .wrapper_centre {
     width: 100%;
   }
-
-
-
 }
-
-
 /* -----------------------------------------------
   Page membres
 ----------------------------------------------- */
@@ -301,6 +270,7 @@ section {
 .wrapper_profile span {
   font-weight: bolder;
 }
+
 .profile {
   padding: 10px;
   background-color: #41bca0;
@@ -321,15 +291,13 @@ section {
   justify-content: space-between;
   font-size: 2em;
 }
-
 /* -----------------------------------------------
   FOOTER
 ----------------------------------------------- */
-
 .style_footer {
   background-color: #273d4f;
   text-align: center;
-  padding: 1.25rem 0 1.25rem 0;
+  padding: 1.25rem 0;
   min-height: 350px;
   font-size: 1.3em;
 }
@@ -338,12 +306,12 @@ section {
   color: #41bca0;
   font-size: 2em;
   text-align: center;
-  padding: 1.25rem 0 1.25rem 0;
+  padding: 1.25rem 0;
 }
 
-.style_footer p,
 .style_footer h1,
-.style_footer i {
+.style_footer i,
+.style_footer p {
   color: white;
 }
 
@@ -360,15 +328,16 @@ section {
   margin-bottom: 1.8em;
 }
 
+.lien_association {
+  font-size: 2.5em;
+
+}
 .footer_mention {
   margin-top: 8rem;
 }
-
-
 /* -----------------------------------------------
   RESPONSIVE --- FOOTER
 ----------------------------------------------- */
-
 @media screen and (max-width:450px) {
   .style_footer {
     font-size: 1em;

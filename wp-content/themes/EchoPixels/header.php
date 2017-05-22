@@ -22,8 +22,5 @@ error_reporting(E_ALL | E_STRICT)
       <div class="menu_header">
         <?php wp_nav_menu( array()); ?>
       </div>
-      <div class="lien_association">
-        <a href="" target="_blank" class="icone bleu"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-        <a href="" target="_blank" class="icone bleu"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-      </div>
+      
     </header>
