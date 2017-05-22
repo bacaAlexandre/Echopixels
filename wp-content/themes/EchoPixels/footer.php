@@ -1,4 +1,5 @@
     <footer >
+     <div class="style_footer">
       <div class="footer_mail">
        <h4>CONTACTEZ-NOUS</h4>
        <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
@@ -8,6 +9,7 @@
       <div class="footer_mention">
        <p>ECHO PIXELS - Tout droit réservés - <a href="#">Mention légales</a></p>
       </div>
+     </div>
     </footer>
   <?php wp_footer(); ?>
   </body>
