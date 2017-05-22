@@ -1,3 +1,4 @@
+
     <footer >
      <div class="style_footer">
       <div class="footer_mail">
@@ -11,7 +12,10 @@
       </div>
       <hr>
       <div class="footer_mention">
-       <p>ECHO PIXELS - Tout droit réservés - <a href="#">Mention légales</a></p>
+       <p>ECHO PIXELS - Tout droit réservés -
+
+         <a href="<?php echo get_page_link(19); ?>">Mention légals</a>
+       </p>
       </div>
      </div>
     </footer>
