@@ -1,11 +1,16 @@
 <?php
-
+echo $post->ID;
   /*
   Template Name: Membres
   */
   get_header();
  ?>
  <main>
+   <section>
+    <div class="banniere">
+     <img src="<?php echo get_template_directory_uri(); ?>/image/Banniere-membres.jpg" alt="banniere_membres">
+    </div>
+   </section>
    <div class="bloc_membres">
      <?php
 
