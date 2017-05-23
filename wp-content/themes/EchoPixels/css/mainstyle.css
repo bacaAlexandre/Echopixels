@@ -116,8 +116,8 @@ section {
   min-height: 600px;
 }
 
-.banniere {
-  background-color: white;
+.banniere_responsive {
+  display: none;
 }
 
 .banniere img {
@@ -242,6 +242,18 @@ section {
     font-size: 1em;
   }
 
+  .banniere {
+    display: none;
+  }
+
+  .banniere_responsive {
+    display: block;
+  }
+
+  .banniere_responsive img {
+    width: 100%;
+  }
+
   .img_association {
     width: 100%;
   }
@@ -291,6 +303,35 @@ section {
   justify-content: space-between;
   font-size: 2em;
 }
+
+/* -----------------------------------------------
+  Page CONTACT
+----------------------------------------------- */
+
+.formulaire_contact {
+  background-color: #41bca0;
+  padding: 2em;
+  text-align: center;
+}
+
+.formulaire_contact h1 {
+  margin:0;
+  text-align: center;
+  color:white;
+}
+
+.formulaire_contact form {
+  margin-top: 5em;
+}
+
+.formulaire_contact input, textarea {
+  border-radius: 10px;
+  border: solid 5px white;
+  background-color: white;
+}
+
+
+
 /* -----------------------------------------------
   FOOTER
 ----------------------------------------------- */

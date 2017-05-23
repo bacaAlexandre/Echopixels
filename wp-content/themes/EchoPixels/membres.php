@@ -14,14 +14,14 @@
    <div class="bloc_membres">
      <?php
 
-     // Liste des utilisateur pour avoir le nombres de membres pour la boucle
+     // Liste des utilisateurs pour avoir le nombre de membres pour la boucle
      $liste_user = get_users();
-     // Boucle pour crée les différent profile
+     // Boucle pour crée les différents profiles
      for ($i=2; $i <=count($liste_user) ; $i++) { ?>
        <div class="wrapper_profile">
          <p class="rouge"><span class="vert"> < </span> <?php the_author_meta('poste', $i) ?> <span class ="vert"> > </span></p>
          <div class="profile">
-            <!-- condition pour vérifier qu'une adress pour la photo a bien été rentré en backoffice -->
+            <!-- condition pour vérifier qu'une adresse pour la photo a bien été rentrée en backoffice -->
            <?php if (get_the_author_meta('photo', $i) == ''){ ?>
               <img src=" <?php echo get_template_directory_uri(); ?>\image\photo\inconnu.jpg" alt="">
            <?php } else { ?>

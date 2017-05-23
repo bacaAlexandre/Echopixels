@@ -7,9 +7,14 @@ Template Name: Accueil
 <div class="index_content">
 
  <section>
+  <!-- Switch d'affichage entre la banniere classique et la banniere responsive-->
   <div class="banniere">
    <img src="<?php echo get_template_directory_uri(); ?>/image/fond_accueil.jpg" alt="banniere_bienvenue">
   </div>
+   <div class="banniere_responsive">
+    <img src="<?php echo get_template_directory_uri(); ?>/image/fond_accueil_responsive.jpg" alt="banniere_bienvenue">
+   </div>
+    <!--  Fin du switch   -->
  </section>
 
  <section class="bloc_bleu">
