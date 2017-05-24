@@ -46,7 +46,6 @@ header {
   background-color: white;
   display: flex;
   align-items: center;
-
 }
 
 .logo {
@@ -81,7 +80,6 @@ header {
 .menu ul:last-child {
   border-right: 1px solid #273d4f;
 }
-
 /* -----------------------------------------------
   RESPONSIVE --- HEADER
 ----------------------------------------------- */
@@ -303,11 +301,9 @@ section {
   justify-content: space-between;
   font-size: 2em;
 }
-
 /* -----------------------------------------------
   Page CONTACT
 ----------------------------------------------- */
-
 .formulaire_contact {
   background-color: #41bca0;
   padding: 2em;
@@ -315,9 +311,9 @@ section {
 }
 
 .formulaire_contact h1 {
-  margin:0;
+  margin: 0;
   text-align: center;
-  color:white;
+  color: white;
 }
 
 .formulaire_contact form {
@@ -335,14 +331,61 @@ section {
   border-color: #e54d66;
 }
 
-.formulaire_contact input, textarea {
+.formulaire_contact input,
+textarea {
   border-radius: 10px;
   border: solid 5px white;
   background-color: white;
 }
+/* -----------------------------------------------
+  Realisation
+----------------------------------------------- */
+.page_logo {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper_logo {
+  border: 5px solid #41bca0;
+  text-align: center;
 
+  background-color: white;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+}
 
+.wrapper_logo img {
+  max-width: 150px;
+  max-height: 150px;
+  vertical-align: middle;
 
+}
+main{
+  position: relative;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+
+    text-align: center;
+    z-index: 11; /* 1px higher than the overlay layer */
+}
 /* -----------------------------------------------
   FOOTER
 ----------------------------------------------- */
@@ -382,8 +425,8 @@ section {
 
 .lien_association {
   font-size: 2.5em;
-
 }
+
 .footer_mention {
   margin-top: 8rem;
 }
