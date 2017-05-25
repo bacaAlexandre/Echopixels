@@ -12,7 +12,7 @@ html {
 body {
   background-image: url("../image/pixel_weave.png");
   margin: 0 auto;
-  padding: 1.25rem 1.25rem 0;
+  padding: 0 1.25rem;
   min-width: 320px;
   max-width: 80%;
   background-color: white;
@@ -347,10 +347,10 @@ textarea {
   display: flex;
   flex-wrap: wrap;
 }
+
 .wrapper_logo {
   border: 5px solid #41bca0;
   text-align: center;
-
   background-color: white;
   margin: 10px;
   width: 200px;
@@ -362,11 +362,12 @@ textarea {
   max-width: 150px;
   max-height: 150px;
   vertical-align: middle;
-
 }
-main{
+
+main {
   position: relative;
 }
+
 .overlay {
   position: fixed;
   top: 0;
@@ -378,13 +379,13 @@ main{
 }
 
 .description {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: white;
-
-    text-align: center;
-    z-index: 11; /* 1px higher than the overlay layer */
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  text-align: center;
+  z-index: 11;
+  /* 1px higher than the overlay layer */
 }
 /* -----------------------------------------------
   FOOTER
