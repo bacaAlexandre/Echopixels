@@ -340,53 +340,66 @@ textarea {
 /* -----------------------------------------------
   Realisation
 ----------------------------------------------- */
-.page_logo {
+.realisation_content h2{
+  padding-top: 30px;
+  margin: 0;
+  text-align: center;
+}
+
+.realisation_wrapper{
+  background-color: white;
   width: 90%;
+  border: 5px solid  #e54d66;
+  padding: 2em;
   margin: auto;
-  padding-top: 20px;
+  margin-top: 3em;
   display: flex;
-  flex-wrap: wrap;
+
 }
 
-.wrapper_logo {
+
+.realisation_wrapper h3{
+  margin-top: 0;
+  font-weight: bold;
+}
+.realisation_col_left img {
+  width: 80%;
+  background: white;
+  padding: 10px;
   border: 5px solid #41bca0;
-  text-align: center;
-  background-color: white;
-  margin: 10px;
-  width: 200px;
-  height: 200px;
-  line-height: 200px;
+
+}
+.realisation_col_right{
+  width: 75%;
+}
+.realisation_col_left {
+  width: 20%;
+
 }
 
-.wrapper_logo img {
-  max-width: 150px;
-  max-height: 150px;
-  vertical-align: middle;
+.realisation_col_left ul {
+  padding-left: 0;
+}
+.realisation_col_left li{
+  list-style: none;
+
 }
 
-main {
-  position: relative;
+@media (max-width:450px) {
+  .realisation_wrapper{
+    flex-direction: column;
+  }
+  .realisation_col_right{
+    width: 100%;
+  }
+  .realisation_col_left {
+    width: 100%;
+  }
+  .realisation_col_left img {
+    width: 100%;
+  }
 }
 
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 10;
-  background-color: rgba(0,0,0,0.5);
-}
-
-.description {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: white;
-  text-align: center;
-  z-index: 11;
-  /* 1px higher than the overlay layer */
-}
 /* -----------------------------------------------
   FOOTER
 ----------------------------------------------- */
