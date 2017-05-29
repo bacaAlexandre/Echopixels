@@ -36,7 +36,11 @@
                </strong>
              </p>
              <p><?php the_author_meta('description', $i) ?></p>
-             <p><?php the_author_meta('site_perso', $i) ?></p>
+             <?php if(get_the_author_meta('site_perso', $i) != ''){ ?>
+               <a href="<?php the_author_meta('site_perso', $i) ?>" target="_blank" class="lien_site_perso">Site perso</a>
+
+             <?php } ?>
+             <!-- <p><?php the_author_meta('site_perso', $i) ?></p> -->
 
              <div class="liens">
                <div class="">

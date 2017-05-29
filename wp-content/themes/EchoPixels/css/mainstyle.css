@@ -290,8 +290,12 @@ section {
   padding: 10px;
   background-color: #41bca0;
   color: white;
-
 }
+
+.lien_site_perso{
+  color: white;
+}
+
 
 .profile img {
   max-width: 100%;
