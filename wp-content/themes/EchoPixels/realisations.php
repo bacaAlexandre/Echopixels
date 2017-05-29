@@ -16,13 +16,13 @@
          <li>Développeur/Intégrateur web : <span class="vert">Baca Alexandre</span></li>
          <li>Développeur/Intégrateur web : <span class="vert">Feuille Bertrand</span></li>
          <li>Web designer : <span class="vert">Blavet Nicolas</span></li>
-         <li>Redatrice web : <span class="vert">Halbout Carine</span></li>
+         <li>Rédactrice web : <span class="vert">Halbout Carine</span></li>
        </ul>
      </div>
      <div class="realisation_col_right">
        <h3 class="bleu">EchoPixels</h3>
        <p class="bleu">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-       <a href="#" target="_blank">Aller sur le site </a>
+      
      </div>
    </div>
 
