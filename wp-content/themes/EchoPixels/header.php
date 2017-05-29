@@ -16,7 +16,7 @@ error_reporting(E_ALL | E_STRICT)
   <body>
     <header>
       <div class="logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/image/echoPixels.png" alt="">
+          <a href="www.echopixels.fr"><img src="<?php echo get_template_directory_uri(); ?>/image/echoPixels.png" alt=""></a>
       </div>
       <!-- Mettre la nav ici -->
       <div class="menu_header">

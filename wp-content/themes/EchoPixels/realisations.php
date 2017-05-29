@@ -6,6 +6,14 @@
   get_header();
  ?>
  <main class="realisation_content">
+   <section>
+    <div class="banniere">
+     <img src="<?php echo get_template_directory_uri(); ?>/image/fond_realisation.jpg" alt="fond_membres">
+    </div>
+    <div class="banniere_responsive">
+     <img src="<?php echo get_template_directory_uri(); ?>/image/fond_realisation_responsive.jpg" alt="banniere_bienvenue">
+    </div>
+   </section>
    <h2 class="vert">Les différents sites réalisés par l'équipe d'EchoPixels</h2>
    <div class="realisation_wrapper">
      <div class="realisation_col_left">

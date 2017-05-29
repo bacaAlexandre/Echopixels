@@ -10,6 +10,9 @@
     <div class="banniere">
      <img src="<?php echo get_template_directory_uri(); ?>/image/fond_membres.jpg" alt="fond_membres">
     </div>
+    <div class="banniere_responsive">
+      <img src="<?php echo get_template_directory_uri(); ?>/image/fond_membres_responsive.jpg" alt="banniere_bienvenue">
+    </div>
    </section>
    <div class="bloc_membres">
      <?php
