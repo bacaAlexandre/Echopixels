@@ -263,11 +263,16 @@ section {
 /* -----------------------------------------------
   Page membres
 ----------------------------------------------- */
+
+.membres_content h2 {
+  text-align: center;
+}
 .bloc_membres {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
   margin: auto;
+
 }
 
 .wrapper_profile {
@@ -285,16 +290,17 @@ section {
   padding: 10px;
   background-color: #41bca0;
   color: white;
+
 }
 
 .profile img {
   max-width: 100%;
-  max-height: 25em;
+  max-height: 20em;
 }
 
 .info {
   padding-top: 5px;
-  text-align: left;
+  /*text-align: left;*/
 }
 
 .liens {

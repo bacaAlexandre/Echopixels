@@ -5,12 +5,13 @@
   */
   get_header();
  ?>
- <main>
+ <main class="membres_content">
    <section>
     <div class="banniere">
      <img src="<?php echo get_template_directory_uri(); ?>/image/fond_membres.jpg" alt="fond_membres">
     </div>
    </section>
+   <h2 class="vert">Les membres de l'association</h2>
    <div class="bloc_membres">
      <?php
 
