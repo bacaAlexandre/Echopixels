@@ -5,7 +5,7 @@
   */
   get_header();
  ?>
- <main>
+ <main class="membres_content">
    <section>
     <div class="banniere">
      <img src="<?php echo get_template_directory_uri(); ?>/image/fond_membres.jpg" alt="fond_membres">
@@ -14,6 +14,7 @@
       <img src="<?php echo get_template_directory_uri(); ?>/image/fond_membres_responsive.jpg" alt="banniere_bienvenue">
     </div>
    </section>
+   <h2 class="vert">Les membres de l'association</h2>
    <div class="bloc_membres">
      <?php
 
@@ -38,7 +39,11 @@
                </strong>
              </p>
              <p><?php the_author_meta('description', $i) ?></p>
-             <p><?php the_author_meta('site_perso', $i) ?></p>
+             <?php if(get_the_author_meta('site_perso', $i) != ''){ ?>
+               <a href="<?php the_author_meta('site_perso', $i) ?>" target="_blank" class="lien_site_perso">Site perso</a>
+
+             <?php } ?>
+             <!-- <p><?php the_author_meta('site_perso', $i) ?></p> -->
 
              <div class="liens">
                <div class="">
