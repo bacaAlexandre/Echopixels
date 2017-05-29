@@ -49,6 +49,7 @@ header {
 }
 
 .logo {
+  min-width: 150px;
   width: 20%;
   padding: 1rem;
 }
@@ -65,6 +66,7 @@ header {
 .menu ul {
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
 .menu a {
@@ -81,18 +83,21 @@ header {
   border-right: 1px solid #273d4f;
 }
 
+.wrapper_header {
+  flex:1;
+}
+
 .menu_header_responsive {
   display:none;
 }
+
+
+
 /* -----------------------------------------------
   RESPONSIVE --- HEADER
 ----------------------------------------------- */
-@media screen and (max-width:1540px) {
 
-
-
-}
-@media screen and (max-width:550px) {
+@media screen and (max-width:880px) {
 
   .header {
     display: block;
@@ -110,7 +115,7 @@ header {
 
   .menu_header {
     text-align: center;
-    /*display:none;*/
+    display:none;
   }
 
   .menu_header_responsive {
@@ -239,6 +244,7 @@ section {
   .text_presentation {
     max-width: 100%;
     text-align: center;
+    font-size: 2em;
   }
 
   .img_association {
@@ -248,6 +254,10 @@ section {
 
   .bloc_bleu {
     padding: 2em;
+  }
+
+  .bloc_blanc {
+    font-size: 1.5em;
   }
 
   .wrapper {
@@ -265,7 +275,7 @@ section {
   }
 
   .wrapper_centre img {
-    max-width: 80%;
+    max-width: 350px;
   }
 }
 @media screen and (max-width:550px) {
@@ -277,6 +287,14 @@ section {
 
   .banniere {
     display: none;
+  }
+
+  .text_presentation {
+    font-size: 1em;
+  }
+
+  .bloc_blanc {
+    font-size: 1em;
   }
 
   .banniere_responsive {
