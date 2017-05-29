@@ -14,13 +14,19 @@ error_reporting(E_ALL | E_STRICT)
     <title>Echo Pixels</title>
   </head>
   <body>
-    <header>
+    <header class="header">
+     <div class="wrapper_header">
       <div class="logo">
-          <a href="www.echopixels.fr"><img src="<?php echo get_template_directory_uri(); ?>/image/echoPixels.png" alt=""></a>
+       <a href="www.echopixels.fr"><img src="<?php echo get_template_directory_uri(); ?>/image/echoPixels.png" alt=""></a>
       </div>
+      <div class="menu_header_responsive">
+       <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+      </div>
+     </div>
       <!-- Mettre la nav ici -->
       <div class="menu_header">
         <?php wp_nav_menu( array('exclude' => '19')); ?>
       </div>
+
 
     </header>
