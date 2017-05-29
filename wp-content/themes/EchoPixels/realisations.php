@@ -47,7 +47,7 @@
 
    <div class="realisation_wrapper">
      <div class="realisation_col_left">
-       <img src="<?php echo get_template_directory_uri(); ?>/image/logo/.png" alt="">
+       <img src="<?php echo get_template_directory_uri(); ?>/image/logo/ikedori.jpg" alt="">
        <ul class="bleu">
          <h4>Equipe</h4>
          <li>Chef de projet : <span class="vert">Feuille Bertrand</span></li>
@@ -60,7 +60,7 @@
      <div class="realisation_col_right">
        <h3 class="bleu">Ikedori</h3>
        <p class="bleu">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-       <a href="#" target="_blank">Aller sur le site </a>
+       <a href="http://ikedori.bertrandfeuille.fr/" target="_blank">Aller sur le site </a>
      </div>
    </div>
  </main>
