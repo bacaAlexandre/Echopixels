@@ -224,6 +224,7 @@ section {
 .wrapper_droite {
   text-align: right;
 }
+
 /* -----------------------------------------------
   RESPONSIVE --- INDEX
 ----------------------------------------------- */
@@ -333,6 +334,7 @@ section {
   margin: 1%;
   text-align: center;
   font-size: 1.2em;
+
 }
 
 .wrapper_profile span {
