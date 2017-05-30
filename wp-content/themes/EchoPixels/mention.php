@@ -21,7 +21,11 @@ echo $post->ID;
        <strong>Personne morale éditrice de ce site</strong>
    </p>
    <p>
-       Le présent site www.echopixels.com est la propriété de l’Association Echo Pixels dont le siège est situé 6-10 Rue Verdier Monetti, DMI ex-site Regma, 76880 Arques-la-Bataille email : echopixels@gmail.com
+       Le présent site www.echopixels.com est la propriété de l’Association Echo Pixels dont le siège est situé : <br>
+       6-10 Rue Verdier Monetti,<br>
+       DMI ex-site Regma,<br>
+       76880 Arques-la-Bataille<br>
+       email : echopixels@gmail.com<br>
    </p>
 
    <p>
@@ -33,13 +37,13 @@ echo $post->ID;
    </p>
 
    <p>
-         Le site est hébergé sur :
-         SAS OVH –
-         140, quai du Sartel 59100 ROUBAIX
-         Tel : 0 899 701 761
-         Fax : 03 20 20 09 58
-         Email : support@ovh.com.
-         Nom de domaine : influenceursduweb.org
+         Le site est hébergé sur :<br>
+         SAS OVH <br>
+         140, quai du Sartel 59100 ROUBAIX <br>
+         Tel : 0 899 701 761 <br>
+         Fax : 03 20 20 09 58 <br>
+         Email : support@ovh.com. <br>
+         Nom de domaine : echopixels.fr <br>
    </p>
 
    <p>
