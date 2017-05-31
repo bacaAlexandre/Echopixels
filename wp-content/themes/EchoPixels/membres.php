@@ -24,7 +24,11 @@
      for ($i=2; $i <=count($liste_user) ; $i++) { ?>
        <div class="wrapper_profile">
          <p class="rouge"><span class="vert"> < </span> <?php the_author_meta('poste', $i) ?> <span class ="vert"> > </span></p>
-         <div class="profile">
+         <div class="profile box">
+           <?php if(get_the_author_meta('freelance', $i) != ''){ ?>
+             <div class="ribbon"><span>Freelance</span></div>
+             
+           <?php } ?>
             <!-- condition pour vérifier qu'une adresse pour la photo a bien été rentrée en backoffice -->
            <?php if (get_the_author_meta('photo', $i) == ''){ ?>
               <img src=" <?php echo get_template_directory_uri(); ?>\image\photo\inconnu.jpg" alt="">

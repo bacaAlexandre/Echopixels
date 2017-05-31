@@ -28,7 +28,7 @@ error_reporting(E_ALL | E_STRICT)
      </div>
       <!-- Mettre la nav ici -->
       <div class="menu_header">
-        <?php wp_nav_menu( array('exclude' => '19')); ?>
+        <?php wp_nav_menu( array('exclude' => '27')); ?>
       </div>
 
 
