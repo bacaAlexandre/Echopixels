@@ -6,6 +6,9 @@
         $( ".menu_header" ).slideToggle("slow");
     });
 
+
+    // Source du code ci-dessous : https://stackoverflow.com/questions/4866284/jquery-add-class-active-on-menu
+    
     $(function(){
 
         var url = window.location.pathname,
