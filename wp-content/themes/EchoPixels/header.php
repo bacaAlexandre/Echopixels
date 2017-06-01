@@ -20,7 +20,7 @@ error_reporting(E_ALL | E_STRICT)
     <header class="header">
      <div class="wrapper_header">
       <div class="logo">
-       <a href="<?php echo get_page_link(2); ?>"><img src="<?php echo get_template_directory_uri(); ?>/image/echoPixels.png" alt=""></a>
+       <a href="../index.php"><img src="<?php echo get_template_directory_uri(); ?>/image/echoPixels.png" alt=""></a>
       </div>
       <div class="menu_header_responsive">
        <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
