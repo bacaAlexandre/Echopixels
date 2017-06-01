@@ -27,10 +27,6 @@ main {
   background-color: #273d4f;
 }
 
-h1 {
-  font-size: 1em;
-}
-
 .bleu {
   color: #273d4f;
 }
@@ -88,23 +84,20 @@ header {
 }
 
 .wrapper_header {
-  flex:1;
+  flex: 1;
 }
 
 .menu_header_responsive {
-  display:none;
+  display: none;
 }
 
 a.active {
- color: #e54d66;
+  color: #e54d66;
 }
-
 /* -----------------------------------------------
   RESPONSIVE --- HEADER
 ----------------------------------------------- */
-
 @media screen and (max-width:880px) {
-
   .header {
     display: block;
   }
@@ -121,11 +114,11 @@ a.active {
 
   .menu_header {
     text-align: center;
-    display:none;
+    display: none;
   }
 
   .menu_header_responsive {
-    display:block;
+    display: block;
     cursor: pointer;
   }
 
@@ -134,9 +127,9 @@ a.active {
   }
 
   .menu ul {
-   flex-direction: column;
-   text-align: center;
-   padding: 0;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
   }
 
   .menu ul:last-child {
@@ -147,7 +140,6 @@ a.active {
     border: none;
     padding: 10px;
   }
-
 }
 /* -----------------------------------------------
   INDEX
@@ -234,7 +226,6 @@ section {
 .wrapper_droite {
   text-align: right;
 }
-
 /* -----------------------------------------------
   RESPONSIVE --- INDEX
 ----------------------------------------------- */
@@ -331,24 +322,22 @@ section {
 /* -----------------------------------------------
   Page membres
 ----------------------------------------------- */
-
-.membres_content h2 {
+.membres_content h1 {
   text-align: center;
 }
+
 .bloc_membres {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
   margin: auto;
-
 }
 
 .wrapper_profile {
   width: 300px;
-  margin: 1%;
+  margin: 1em;
   text-align: center;
   font-size: 1.2em;
-
 }
 
 .wrapper_profile span {
@@ -361,10 +350,9 @@ section {
   color: white;
 }
 
-.lien_site_perso{
+.lien_site_perso {
   color: white;
 }
-
 
 .profile img {
   max-width: 100%;
@@ -381,21 +369,24 @@ section {
   justify-content: space-between;
   font-size: 2em;
 }
-
 /* -----------------------------------------------
   Ruban page membre (code modifier du site http://www.cssportal.com/css-ribbon-generator/)
 ----------------------------------------------- */
 .box {
   position: relative;
 }
+
 .ribbon {
   position: absolute;
-  right: -5px; top: -5px;
+  right: -5px;
+  top: -5px;
   z-index: 1;
   overflow: hidden;
-  width: 75px; height: 75px;
+  width: 75px;
+  height: 75px;
   text-align: right;
 }
+
 .ribbon span {
   font-size: 10px;
   font-weight: bold;
@@ -410,20 +401,27 @@ section {
   background: #e54d66;
   box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
   position: absolute;
-  top: 19px; right: -21px;
+  top: 19px;
+  right: -21px;
 }
+
 .ribbon span::before {
   content: "";
-  position: absolute; left: 0px; top: 100%;
+  position: absolute;
+  left: 0;
+  top: 100%;
   z-index: -1;
   border-left: 3px solid #e54d66;
   border-right: 3px solid transparent;
   border-bottom: 3px solid transparent;
   border-top: 3px solid #e54d66;
 }
+
 .ribbon span::after {
   content: "";
-  position: absolute; right: 0px; top: 100%;
+  position: absolute;
+  right: 0;
+  top: 100%;
   z-index: -1;
   border-left: 3px solid transparent;
   border-right: 3px solid #e54d66;
@@ -469,66 +467,65 @@ textarea {
 /* -----------------------------------------------
   Realisation
 ----------------------------------------------- */
-.realisation_content h2{
+.realisation_content h1 {
   padding-top: 30px;
   margin: 0;
   text-align: center;
 }
 
-.realisation_wrapper{
+.realisation_wrapper {
   background-color: white;
   width: 90%;
-  border: 5px solid  #e54d66;
+  border: 5px solid #e54d66;
   padding: 2em;
-  margin: auto;
-  margin-top: 3em;
+  margin: 3em auto auto;
   display: flex;
-
 }
 
-
-.realisation_wrapper h3{
+.realisation_wrapper h3 {
   margin-top: 0;
   font-weight: bold;
 }
+
 .realisation_col_left img {
   width: 80%;
   background: white;
   padding: 10px;
   border: 5px solid #41bca0;
-
 }
-.realisation_col_right{
+
+.realisation_col_right {
   width: 75%;
 }
+
 .realisation_col_left {
   width: 20%;
-
 }
 
 .realisation_col_left ul {
   padding-left: 0;
 }
-.realisation_col_left li{
+
+.realisation_col_left li {
   list-style: none;
-
 }
-
 @media (max-width:450px) {
-  .realisation_wrapper{
+  .realisation_wrapper {
     flex-direction: column;
   }
-  .realisation_col_right{
+
+  .realisation_col_right {
     width: 100%;
   }
+
   .realisation_col_left {
     width: 100%;
   }
+
   .realisation_col_left img {
     width: 100%;
   }
 }
-
 /* -----------------------------------------------
   FOOTER
 ----------------------------------------------- */
@@ -582,11 +579,9 @@ textarea {
     min-height: inherit;
   }
 }
-
 /* -----------------------------------------------
   Mentions légales
 ----------------------------------------------- */
-
 .mentions {
   background-color: white;
   font-size: 1.2em;
@@ -594,5 +589,5 @@ textarea {
 }
 
 .mentions p {
-  margin-top : 30px;
+  margin-top: 30px;
 }

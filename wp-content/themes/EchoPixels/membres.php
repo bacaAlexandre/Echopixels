@@ -14,7 +14,7 @@
       <img src="<?php echo get_template_directory_uri(); ?>/image/fond_membres_responsive.jpg" alt="banniere_bienvenue">
     </div>
    </section>
-   <h2 class="vert">Les membres de l'association</h2>
+   <h1 class="vert">Les membres de l'association</h1>
    <div class="bloc_membres">
      <?php
 
@@ -27,7 +27,7 @@
          <div class="profile box">
            <?php if(get_the_author_meta('freelance', $i) != ''){ ?>
              <div class="ribbon"><span>Freelance</span></div>
-             
+
            <?php } ?>
             <!-- condition pour vérifier qu'une adresse pour la photo a bien été rentrée en backoffice -->
            <?php if (get_the_author_meta('photo', $i) == ''){ ?>
