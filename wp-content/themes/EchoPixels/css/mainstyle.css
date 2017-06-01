@@ -570,6 +570,12 @@ textarea {
 .footer_mention {
   margin-top: 8rem;
 }
+
+.lien_association i:hover {
+  color: #e54d66;
+  transition: ease 0.5s;
+}
+
 /* -----------------------------------------------
   RESPONSIVE --- FOOTER
 ----------------------------------------------- */
