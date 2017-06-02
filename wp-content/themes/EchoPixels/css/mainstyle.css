@@ -163,11 +163,12 @@ section {
 .bloc_bleu {
   padding: 5em;
   background-color: #273d4f;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .bloc_bleu h1 {
   color: white;
+  text-align: center;
 
 }
 
