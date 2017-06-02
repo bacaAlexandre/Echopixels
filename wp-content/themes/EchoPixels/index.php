@@ -18,15 +18,11 @@ Template Name: Accueil
  </section>
 
  <section class="bloc_bleu">
-<!--    <div class="presentation">-->
         <h1> TITRE H1 A METTRE ICI</h1>
-<!--        <div class="img_association">-->
-<!--            <img src="--><?php //echo get_template_directory_uri(); ?><!--/image/groupe_asso.jpg" alt="photo de groupe de l'association">-->
-<!--        </div>-->
         <div class="text_presentation">
             <p> A l'issue de trois mois et demi de formation aux <strong>métiers de développeurs et d'intégrateur web,</strong> d'anciens élèves de la première école de codeurs de la région dieppoise ont souhaité rester en contact, poursuivre leur formation et s'exercer à leur futur métier.</p>
             <p><strong>L'association Echo Pixels</strong> est donc née. Passerelle entre employeurs et candidats à l'emploi, entre professionnels et freelancer, elle regroupe aujourd'hui des webmaster, mais également des webdesigner et des rédacteurs web.</p>
-<!--    </div>-->
+
  </section>
 
 
