@@ -22,8 +22,8 @@
        <ul class="bleu">
            <h4>Equipe</h4>
            <li>Chef de projet : <span class="vert">Alexandre Baca</span></li>
-           <li>Développeur/Intégrateur web : <span class="vert">Alexandre Baca</span></li>
-           <li>Développeur/Intégrateur web : <span class="vert">Bertrand Feuille</span></li>
+           <li>Développeur front/back : <span class="vert">Alexandre Baca</span></li>
+           <li>Développeur front/back : <span class="vert">Bertrand Feuille</span></li>
            <li>Webdesigner : <span class="vert">Nicolas Blavet</span></li>
            <li>Conception logo : <span class="vert">Mélinda Khammar</span></li>
            <li>Rédatrice web : <span class="vert">Carine Halbout</span></li>
@@ -42,10 +42,11 @@
        <ul class="bleu">
            <h4>Equipe</h4>
            <li>Chef de projet : <span class="vert">Paul Goyer</span></li>
-           <li>Développeur web : <span class="vert">Paul Goyer</span></li>
-           <li>Développeur web : <span class="vert">Sammy Rimbert</span></li>
-           <li>Intégrateur web : <span class="vert">Théo Lerquet</span></li>
-           <li>Intégrateur web : <span class="vert">Alexandre Baca</span></li>
+           <li>Développeur front : <span class="vert">Paul Goyer</span></li>
+           <li>Développeur front : <span class="vert">Sammy Rimbert</span></li>
+           <li>Développeur back : <span class="vert">Théo Lerquet</span></li>
+           <li>Développeur back : <span class="vert">Alexandre Baca</span></li>
+           <li>Conception logo : <span class="vert">Mélinda Khammar</span></li>
        </ul>
      </div>
      <div class="realisation_col_right">
@@ -69,8 +70,8 @@
        <ul class="bleu">
            <h4>Equipe</h4>
            <li>Chef de projet : <span class="vert">Bertrand Feuille</span></li>
-           <li>Développeur front + webdesign : <span class="vert">Bertrand Feuille</span></li>
-           <li>Développeur front + webdesign : <span class="vert">Nicolas Blavet</span></li>
+           <li>Développeur front + Webdesigner : <span class="vert">Bertrand Feuille</span></li>
+           <li>Développeur front + Webdesigner : <span class="vert">Nicolas Blavet</span></li>
            <li>Développeur back : <span class="vert">Quentin Hedouin</span></li>
            <li>Développeur back + récolte de datas : <span class="vert">Carine Halbout</span></li>
        </ul>

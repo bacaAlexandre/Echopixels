@@ -497,18 +497,24 @@ textarea {
 .realisation_col_right {
   width: 75%;
 }
-
+.realisation_col_right p{
+  font-size: 1.2em;
+}
 .realisation_col_left {
   width: 20%;
 }
 
 .realisation_col_left ul {
   padding-left: 0;
+  padding-right: 1em;
 }
 
 .realisation_col_left li {
   list-style: none;
 }
+/* -----------------------------------------------
+  responsive page realisation
+----------------------------------------------- */
 @media (max-width:450px) {
   .realisation_wrapper {
     flex-direction: column;
@@ -524,6 +530,9 @@ textarea {
 
   .realisation_col_left img {
     width: 100%;
+  }
+  .realisation_col_left ul {
+    padding-right: 0;
   }
 }
 /* -----------------------------------------------
