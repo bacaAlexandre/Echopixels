@@ -163,29 +163,21 @@ section {
 .bloc_bleu {
   padding: 5em;
   background-color: #273d4f;
+  text-align: center;
 }
 
-.presentation {
-  background-color: #273d4f;
-  border: solid 20px #41bca0;
-  display: flex;
+.bloc_bleu h1 {
+  color: white;
+
 }
 
 .text_presentation {
   padding: 1em;
-  max-width: 50%;
+
 }
 
 .text_presentation strong {
   color: white;
-}
-
-.img_association {
-  width: 50%;
-}
-
-.img_association img {
-  width: 100%;
 }
 
 .text_presentation {
@@ -237,24 +229,13 @@ section {
     font-size: 1em;
   }
 
-  .presentation {
-    display: inline;
-    width: 100%;
-    border: none;
-  }
-
   .text_presentation {
     max-width: 100%;
     text-align: center;
     font-size: 2em;
   }
 
-  .img_association {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .bloc_bleu {
+   .bloc_bleu {
     padding: 2em;
   }
 
@@ -293,6 +274,14 @@ section {
 
   .text_presentation {
     font-size: 1em;
+  }
+
+  .text_presentation p {
+    font-size: 1.2em;
+  }
+
+  .bloc_bleu h1 {
+    font-size: 2.5em;
   }
 
   .bloc_blanc {
