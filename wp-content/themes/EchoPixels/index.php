@@ -19,13 +19,19 @@ Template Name: Accueil
 
  <section class="bloc_bleu">
 <!--    <div class="presentation">-->
-        <h1> TITRE H1 A METTRE ICI</h1>
+        <h1>Des développeurs web made in Dieppe</h1>
 <!--        <div class="img_association">-->
 <!--            <img src="--><?php //echo get_template_directory_uri(); ?><!--/image/groupe_asso.jpg" alt="photo de groupe de l'association">-->
 <!--        </div>-->
         <div class="text_presentation">
-            <p> A l'issue de trois mois et demi de formation aux <strong>métiers de développeurs et d'intégrateur web,</strong> d'anciens élèves de la première école de codeurs de la région dieppoise ont souhaité rester en contact, poursuivre leur formation et s'exercer à leur futur métier.</p>
-            <p><strong>L'association Echo Pixels</strong> est donc née. Passerelle entre employeurs et candidats à l'emploi, entre professionnels et freelancer, elle regroupe aujourd'hui des webmaster, mais également des webdesigner et des rédacteurs web.</p>
+            <p>L'arrivée d'internet a considérablement bouleversé le monde et la façon de communiquer, de promouvoir son activité, de vendre ses produits et services, d'échanger.</p>
+            <p>Or, de nombreux professionnels ne sont pas encore équipés dans ce domaine et ils devront l'être à l'avenir car exister sur le net est devenu indispensable.
+            Mais voilà, les développeurs ne courent pas les rues et leurs compétences sont recherchées à prix d'or.</p>
+            <p>Partant de ce constat, la première école dieppoise de formation aux métiers de <strong>développeur et d'intégrateur web</strong>, appelée également <strong>Ecole de codeurs d'Arques la Bataille</strong>, a vu le jour en octobre 2016. Elle porte le nom de "Promotion Danièle Thétiot" en hommage à la porteuse du projet décédée peu avant l'ouverture de l'école.</p>
+            <p>Installée dans l'agglomération dieppoise, à Arques la Bataille, dans des locaux flambant neufs voués aux métiers du numérique, la première promotion a suivi pendant trois mois et demi l'enseignement dispensé par l'école parisienne <strong>WebForce3</strong>. Tous en sont sortis certifiés aux deux métiers : développeur web et intégrateur web.</p>
+            <p>A l'issue de la formation, certains d'entre eux ont souhaité rester en contact, poursuivre leur formation et s'exercer à leur futur métier.</p>
+            <p><strong>L'association Echo Pixels</strong> est donc née. </p>
+            <p>Passerelle entre employeurs et candidats à l'emploi, entre professionnels et freelancers, elle regroupe aujourd'hui des webmasters, mais également des webdesigners et des rédacteurs web.</p>
 <!--    </div>-->
  </section>
 
