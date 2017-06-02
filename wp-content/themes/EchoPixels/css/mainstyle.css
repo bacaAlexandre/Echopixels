@@ -169,6 +169,8 @@ section {
 .bloc_bleu h1 {
   color: white;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
 
 }
 
