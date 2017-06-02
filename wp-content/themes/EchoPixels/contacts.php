@@ -17,7 +17,7 @@
   <section class="formulaire_contact">
    <h1>Contacter l'association Echo Pixels</h1>
       <div>
-          <?php do_shortcode('[contact-form-7 id="22" title="Contact form 1"]'); ?>
+          <?php echo do_shortcode('[contact-form-7 id="22" title="Contact form 1"]'); ?>
       </div>
   </section>
  </main>
