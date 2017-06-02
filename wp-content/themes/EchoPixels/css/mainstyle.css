@@ -162,6 +162,8 @@ section {
 
 .bloc_bleu {
   padding: 5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   background-color: #273d4f;
   /*text-align: center;*/
 }
@@ -312,6 +314,7 @@ section {
 ----------------------------------------------- */
 .membres_content h1 {
   text-align: center;
+  color: white;
 }
 
 .bloc_membres {
@@ -459,6 +462,7 @@ textarea {
   padding-top: 30px;
   margin: 0;
   text-align: center;
+  color: white;
 }
 
 .realisation_wrapper {
