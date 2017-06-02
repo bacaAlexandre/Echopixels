@@ -314,6 +314,7 @@ section {
 ----------------------------------------------- */
 .membres_content h1 {
   text-align: center;
+  color: white;
 }
 
 .bloc_membres {
@@ -461,6 +462,7 @@ textarea {
   padding-top: 30px;
   margin: 0;
   text-align: center;
+  color: white;
 }
 
 .realisation_wrapper {
