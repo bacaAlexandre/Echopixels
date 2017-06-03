@@ -41,24 +41,22 @@ Template Name: Accueil
     <div class="wrapper">
         <div class="wrapper_gauche">
             <h2>Mettre en relation</h2>
-            <p>Cette mission est le principal objet de l'association : mettre en relation les développeurs et les professionnels.</p>
-            <p>Elle doit permettre aux développeurs fraîchement diplômés et en recherche d'emploi d'être mis en contact avec d'éventuels employeurs.<br>
-                Dans la section "membres" leurs profils sont répertoriés et leurs cv disponibles.</p>
-            <p>Pour les profils freelance, l'association est une passerelle entre eux et les professionnels </p>
+            <p>L'association sert d'intermédiaire entre les professionnels et ses membres, qu'ils soient en recherche d'emploi ou en freelance.</p>
+            <p>La section "membres" regroupe leurs profils et pour certains, leur cv.</p>
 
+            <h2>Créer des sites & des applications </h2>
+            <p>Les développeurs disponibles peuvent venir en aide à des associations ayant besoin d'un site internet pour leur activité.</p>
         </div>
         <div class="wrapper_centre">
             <img src="<?php echo get_template_directory_uri(); ?>/image/echopixels_logo.png">
         </div>
         <div class="wrapper_droite">
-            <h2>Se former</h2>
-            <p>La formation est une</p>
+            <h2>Continuer à se former</h2>
+            <p>Le métier de développeur web est en constante évolution. La formation continue est primordiale pour se maintenir à jour.</p>
+            <p>De chez eux ou réunis en petits groupes, les élèves poursuivrent leur apprentissage.</p>
 
-            <h2>La réalisation des sites et d'applications</h2>
-            <p>accompagnement d'associations dans la réalisation de sites internet "vitrine" ou d'application moyennant une adhésion en tant que membre biendaiteur</p>
-
-            <h2>Promouvoir l'école</h2>
-            <p>par des interventios lors de manifestations liées au domaine du numérique</p>
+            <h2>Promouvoir l'école & nous faire connaître</h2>
+            <p>L'association est présente aux manifestations locales liées au domaine du numérique.</p>
         </div>
     </div>
  </section>
