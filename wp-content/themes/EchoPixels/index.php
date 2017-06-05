@@ -44,7 +44,7 @@ Template Name: Accueil
             <p>L'association sert d'intermédiaire entre les professionnels et ses membres, qu'ils soient en recherche d'emploi ou en freelance.</p>
             <p>La section "membres" regroupe leurs profils et pour certains, leur cv.</p>
 
-            <h2>Créer des sites & des applications </h2>
+            <h2>Développer des sites & <br> des applications </h2>
             <p>Les développeurs disponibles peuvent venir en aide à des associations ayant besoin d'un site internet pour leur activité.</p>
         </div>
         <div class="wrapper_centre">
@@ -52,10 +52,10 @@ Template Name: Accueil
         </div>
         <div class="wrapper_droite">
             <h2>Continuer à se former</h2>
-            <p>Le métier de développeur web est en constante évolution. La formation continue est primordiale pour se maintenir à jour.</p>
+            <p>Le métier de développeur web est en constante évolution. La formation continue est donc primordiale pour se maintenir à jour ses connaissances.</p>
             <p>De chez eux ou réunis en petits groupes, les élèves poursuivrent leur apprentissage.</p>
 
-            <h2>Promouvoir l'école & nous faire connaître</h2>
+            <h2>Promouvoir l'école & <br> se faire connaître</h2>
             <p>L'association est présente aux manifestations locales liées au domaine du numérique.</p>
         </div>
     </div>
