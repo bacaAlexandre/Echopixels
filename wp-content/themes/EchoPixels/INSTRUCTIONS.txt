@@ -1,0 +1,23 @@
+Voici la base du site.
+
+Je vous invite à vous faire votre CSS sous Sass; Vous trouverez moults docs ici http://sass-lang.com.
+	Sass vous permettra de coder plus rapidemment et d'avoir un code plus malléable.
+	N'hésitez surtout pas à vous former la dessus car c'est vraiment un très bon outil qui améliore votre performance.
+	
+Afin de compiler votre code sass vous devrez utiliser Compass que vous trouverez ici http://compass.kkbox.com.
+	Une fois l'appli installé vous aurez juste à lancer, faire 'watch a folder' et choisir le dossier contenant le theme du site.
+
+En cas de probleme avec sass ou compass n'hésitez pas à me demander.
+
+
+Concernant le wordpress meme, j'ai rajouté un plugin 'Extra User Details' qui permet d'ajouter des champs aux utilisateurs.
+	Cela va surtout nous permettre d'ajouter des champs comme le facebook, linkedin etc aux users.
+	https://fr.wordpress.org/plugins/extra-user-details/ <---- la doc du plugins.
+
+	Le fichiers functions.php est la base du site, c'est à partir de celui la qu'on va appeler tous nos scripts et feuilles
+	de style. Vous pourrez y mettre aussi toutes vos fonctions "php".
+
+	Si vous devez faire de l'ajax vous devrez mettre vos fonctions dans le fichier theme-ajax.js et non dans le custom JS
+	qui sera le fichier 'master' du site.
+
+Pareillement si vous avez des problèmes avec wordpress n'hesitez pas à me demander.

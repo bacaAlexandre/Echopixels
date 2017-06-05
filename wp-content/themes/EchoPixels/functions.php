@@ -1,6 +1,6 @@
 <?php
   // Enlever la barre d'admin
-  show_admin_bar(false);
+   show_admin_bar(false);
 
   // C'est ici que vous ajoutez vos feuilles de styles
   function echopixels_style() {
@@ -35,4 +35,7 @@
 
   }
   add_action( 'wp_enqueue_scripts', 'echopixels_scripts' );
+
+
+
  ?>
