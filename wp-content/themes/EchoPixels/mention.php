@@ -1,5 +1,4 @@
 <?php
-echo $post->ID;
   /*
   Template Name: Mention légales
   */

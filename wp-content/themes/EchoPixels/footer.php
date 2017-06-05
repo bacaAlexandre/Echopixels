@@ -14,7 +14,7 @@
       <div class="footer_mention">
        <p>ECHO PIXELS - Tout droit réservés -
 
-         <a href="<?php echo get_page_link(27); ?>">Mentions légales</a>
+         <a href="<?php echo get_page_link(11); ?>">Mentions légales</a>
        </p>
       </div>
      </div>
