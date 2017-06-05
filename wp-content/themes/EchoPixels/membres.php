@@ -38,8 +38,8 @@
            <div class="info">
              <p class="bleu">
                <strong>
-                 <?php the_author_meta('last_name', $i) ?>
                  <?php the_author_meta('first_name', $i) ?>
+                 <?php the_author_meta('last_name', $i) ?>
                </strong>
              </p>
              <p><?php the_author_meta('description', $i) ?></p>
