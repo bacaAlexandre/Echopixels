@@ -4,7 +4,9 @@ Template Name: Accueil
 */
   get_header();
  ?>
+
 <div class="index_content">
+
 
  <section>
   <!-- Switch d'affichage entre la banniere classique et la banniere responsive-->
@@ -16,6 +18,7 @@ Template Name: Accueil
    </div>
     <!--  Fin du switch   -->
  </section>
+
 
  <section class="bloc_bleu">
 <!--    <div class="presentation">-->
@@ -33,6 +36,7 @@ Template Name: Accueil
             <p><strong>L'association Echo Pixels</strong> est donc née. </p>
             <p>Passerelle entre employeurs et candidats à l'emploi, entre professionnels et freelancers, elle regroupe aujourd'hui des webmasters, mais également des webdesigners et des rédacteurs web.</p>
 <!--    </div>-->
+
  </section>
 
 
