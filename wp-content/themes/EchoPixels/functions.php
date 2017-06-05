@@ -36,7 +36,6 @@
   }
   add_action( 'wp_enqueue_scripts', 'echopixels_scripts' );
 
-  register_nav_menus( array(
-        'Top' => 'Navigation principale',
-    ) );
+
+
  ?>
