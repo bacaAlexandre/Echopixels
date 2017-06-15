@@ -165,7 +165,6 @@ section {
   padding-top: 2em;
   padding-bottom: 2em;
   background-color: #273d4f;
-  /*text-align: center;*/
 }
 
 .bloc_bleu h1 {
@@ -195,6 +194,11 @@ section {
   background-color: white;
 }
 
+.bloc_blanc h1 {
+  text-align: center;
+  margin-bottom: -20px;
+}
+
 .wrapper {
   max-width: 100%;
   min-height: 450px;
@@ -202,6 +206,7 @@ section {
   align-items: center;
   justify-content: center;
 }
+
 
 .wrapper h2 {
   text-decoration: underline #41bca0;
@@ -248,6 +253,10 @@ section {
     font-size: 1.5em;
   }
 
+  .bloc_blanc h1 {
+    padding-bottom: 20px;
+  }
+
   .wrapper {
     flex-direction: column;
   }
@@ -278,11 +287,11 @@ section {
   }
 
   .text_presentation {
-    font-size: 1em;
+    font-size: 1.3em;
   }
 
   .text_presentation p {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
 
   .bloc_bleu h1 {
@@ -290,7 +299,16 @@ section {
   }
 
   .bloc_blanc {
-    font-size: 1em;
+    font-size: 1.3em;
+  }
+
+  .bloc_blanc h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  .bloc_blanc h2 {
+    font-size: 1.9em;
   }
 
   .banniere_responsive {
@@ -430,6 +448,8 @@ section {
 
 .formulaire_contact h1 {
   margin: 0;
+  margin-top: 20px;
+  margin-bottom: 50px;
   text-align: center;
   color: white;
 }
@@ -597,4 +617,26 @@ textarea {
 
 .mentions p {
   margin-top: 30px;
+}
+
+/* -----------------------------------------------
+  Page SERVICES
+----------------------------------------------- */
+.services_text {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+
+.services_text p {
+  font-size: 1.2em;
+}
+
+.services_text a {
+  color: white;
+}
+
+.services_text blockquote {
+  color: #e54d66;
 }
