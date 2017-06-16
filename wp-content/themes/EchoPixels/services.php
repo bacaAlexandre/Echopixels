@@ -29,11 +29,11 @@
       <div class="services_text">
         <h2>La mise en relation</h2>
         <p>L'objectif premier d'Echo Pixels est d'insérer professionnellement ses membres à l'issue de leur formation, jouant si possible le rôle d'intermédiaire.</p>
-        <p>Que vous soyez à la recherche d'un salarié ou d'un prestataire, tous les profils sont regroupés dans la page <a href="<?php echo get_page_link(9);?>">"Membres".</a>Vous êtes libre de les contacter directement ou par l'intermédiaire d'Echo Pixels. </p>
+        <p>Que vous soyez à la recherche d'un salarié ou d'un prestataire, tous les profils sont regroupés dans la page "<a href="<?php echo get_page_link(9);?>">Membres</a>".Vous êtes libre de les contacter directement ou par l'intermédiaire d'Echo Pixels. </p>
       </div>
     <section>
       <div class="services_text">
-        <p>Pour tout renseignement, un formulaire est à votre disposition à la page <a href="<?php echo get_page_link(7);?>">"Contacts".</a></p>
+        <p>Pour tout renseignement, un formulaire est à votre disposition à la page "<a href="<?php echo get_page_link(7);?>">Contacts</a>".</p>
       </div>
     </section>
     <section>

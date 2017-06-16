@@ -1,4 +1,5 @@
 /* line 1, ../scss/mainstyle.scss */
+
 html {
   box-sizing: border-box;
 }
@@ -41,6 +42,7 @@ main {
 /* -----------------------------------------------
   HEADER
 ----------------------------------------------- */
+
 header {
   padding: 1.25rem 1.25rem 0.5rem;
   background-color: white;
@@ -144,6 +146,7 @@ a.active {
 /* -----------------------------------------------
   INDEX
 ----------------------------------------------- */
+
 section {
   width: 100%;
 }
@@ -161,9 +164,7 @@ section {
 }
 
 .bloc_bleu {
-  padding: 5em;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding: 2em 5em;
   background-color: #273d4f;
 }
 
@@ -172,12 +173,10 @@ section {
   text-align: center;
   margin-top: 0;
   margin-bottom: 20px;
-
 }
 
 .text_presentation {
   padding: 1em;
-
 }
 
 .text_presentation strong {
@@ -206,7 +205,6 @@ section {
   align-items: center;
   justify-content: center;
 }
-
 
 .wrapper h2 {
   text-decoration: underline #41bca0;
@@ -245,7 +243,7 @@ section {
     font-size: 2em;
   }
 
-   .bloc_bleu {
+  .bloc_bleu {
     padding: 2em;
   }
 
@@ -330,6 +328,7 @@ section {
 /* -----------------------------------------------
   Page membres
 ----------------------------------------------- */
+
 .membres_content h1 {
   text-align: center;
   color: white;
@@ -381,6 +380,7 @@ section {
 /* -----------------------------------------------
   Ruban page membre (code modifier du site http://www.cssportal.com/css-ribbon-generator/)
 ----------------------------------------------- */
+
 .box {
   position: relative;
 }
@@ -440,6 +440,7 @@ section {
 /* -----------------------------------------------
   Page CONTACT
 ----------------------------------------------- */
+
 .formulaire_contact {
   background-color: #41bca0;
   padding: 2em;
@@ -447,9 +448,7 @@ section {
 }
 
 .formulaire_contact h1 {
-  margin: 0;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin: 20px 0 50px;
   text-align: center;
   color: white;
 }
@@ -478,6 +477,7 @@ textarea {
 /* -----------------------------------------------
   Realisation
 ----------------------------------------------- */
+
 .realisation_content h1 {
   padding-top: 30px;
   margin: 0;
@@ -509,9 +509,11 @@ textarea {
 .realisation_col_right {
   width: 75%;
 }
+
 .realisation_col_right p {
   font-size: 1.2em;
 }
+
 .realisation_col_left {
   width: 20%;
 }
@@ -543,6 +545,7 @@ textarea {
   .realisation_col_left img {
     width: 100%;
   }
+
   .realisation_col_left ul {
     padding-right: 0;
   }
@@ -550,6 +553,7 @@ textarea {
 /* -----------------------------------------------
   FOOTER
 ----------------------------------------------- */
+
 .style_footer {
   background-color: #273d4f;
   text-align: center;
@@ -596,7 +600,6 @@ textarea {
   color: #e54d66;
   transition: ease 0.5s;
 }
-
 /* -----------------------------------------------
   RESPONSIVE --- FOOTER
 ----------------------------------------------- */
@@ -609,6 +612,7 @@ textarea {
 /* -----------------------------------------------
   Mentions légales
 ----------------------------------------------- */
+
 .mentions {
   background-color: white;
   font-size: 1.2em;
@@ -618,10 +622,10 @@ textarea {
 .mentions p {
   margin-top: 30px;
 }
-
 /* -----------------------------------------------
   Page SERVICES
 ----------------------------------------------- */
+
 .services_text {
   width: 80%;
   margin: 0 auto;
@@ -635,6 +639,11 @@ textarea {
 
 .services_text a {
   color: white;
+}
+
+.services_text a:hover {
+  color: #e54d66;
+  text-decoration: none;
 }
 
 .services_text blockquote {
