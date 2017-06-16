@@ -46,7 +46,7 @@ Template Name: Accueil
             <p>La section "membres" regroupe leurs profils et pour certains, leur cv.</p>
 
             <h2>Réaliser des sites web </h2>
-            <p>Les développeurs disponibles peuvent venir en aide à des associations pour la réalisaton de leur site internet. Plus d'infos <a href="<?php echo get_page_link(30);?>">ici</a></p>
+            <p>Les développeurs disponibles peuvent venir en aide à des associations pour la réalisation de leur site internet. Plus d'infos <a href="<?php echo get_page_link(30);?>">ici</a></p>
         </div>
         <div class="wrapper_centre">
             <img src="<?php echo get_template_directory_uri(); ?>/image/echopixels_logo.png">
