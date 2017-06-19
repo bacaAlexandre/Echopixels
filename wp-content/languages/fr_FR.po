@@ -2,7 +2,9 @@
 # This file is distributed under the same license as the WordPress - 4.8.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-06-15 12:59:35+0000\n"
+
+"PO-Revision-Date: 2017-06-08 20:57:45+0000\n"
+
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -6261,7 +6263,11 @@ msgstr "on"
 #: wp-includes/update.php:128 wp-includes/update.php:320
 #: wp-includes/update.php:498
 msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
+<<<<<<< HEAD
 msgstr "Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href=\"%s\">forums de support</a>."
+=======
+msgstr "Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur le <a href=\"%s\">forums d&rsquo;entraide</a> (en anglais)."
+>>>>>>> dev
 
 #. translators: To add an additional Open Sans character subset specific to
 #. your language, translate this to 'greek', 'cyrillic' or 'vietnamese'. Do not
@@ -8521,6 +8527,7 @@ msgstr "Menus"
 #: wp-includes/wp-db.php:1372
 msgid "WordPress database error %1$s for query %2$s"
 msgstr "Erreur de la base de données WordPress %1$s pour la requête %2$s"
+<<<<<<< HEAD
 
 #. translators: 1: Database error message, 2: SQL query, 3: Name of the calling
 #. function
@@ -8629,6 +8636,116 @@ msgstr "Soit il n&rsquo;y a pas d&rsquo;articles, soit une erreur s&rsquo;est pr
 msgid "Sorry, you are not allowed to update options."
 msgstr "Désolé, vous n’avez pas l’autorisation de mettre à jour les options."
 
+=======
+
+#. translators: 1: Database error message, 2: SQL query, 3: Name of the calling
+#. function
+#: wp-includes/wp-db.php:1369
+msgid "WordPress database error %1$s for query %2$s made by %3$s"
+msgstr "Erreur de la base de données WordPress %1$s pour la requête %2$s faite par %3$s"
+
+#: wp-includes/load.php:141
+msgid "Your PHP installation appears to be missing the MySQL extension which is required by WordPress."
+msgstr "Votre installation PHP ne dispose pas de MySQL. Extension requise pour WordPress."
+
+#: wp-includes/class-wp-xmlrpc-server.php:6476
+msgid "The specified target URL does not exist."
+msgstr "L&rsquo;adresse cible spécifiée n&rsquo;existe pas."
+
+#. translators: 1: URL of the page linked from, 2: URL of the page linked to
+#: wp-includes/class-wp-xmlrpc-server.php:6443
+msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
+msgstr "Réception d&rsquo;un ping de %1$s pour %2$s. Continuons la conversation&nbsp;!&nbsp;:-)"
+
+#: wp-includes/class-wp-xmlrpc-server.php:6410
+msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
+msgstr "L&rsquo;adresse source ne contient pas de lien vers l&rsquo;adresse cible, et ne peut donc pas être utilisée comme source."
+
+#: wp-includes/class-wp-xmlrpc-server.php:6373
+msgid "We cannot find a title on that page."
+msgstr "Aucun titre n’a été trouvé sur la page."
+
+#: wp-includes/class-wp-xmlrpc-server.php:6352
+msgid "The source URL does not exist."
+msgstr "L&rsquo;adresse d&rsquo;origine n&rsquo;existe pas."
+
+#: wp-includes/class-wp-xmlrpc-server.php:6327
+msgid "The pingback has already been registered."
+msgstr "Le ping a déjà été enregistré."
+
+#: wp-includes/class-wp-xmlrpc-server.php:6319
+msgid "The source URL and the target URL cannot both point to the same resource."
+msgstr "L&rsquo;adresse source et l&rsquo;adresse cible ne peuvent pointer vers la même ressource."
+
+#: wp-includes/class-wp-xmlrpc-server.php:6309
+#: wp-includes/class-wp-xmlrpc-server.php:6316
+#: wp-includes/class-wp-xmlrpc-server.php:6323
+#: wp-includes/class-wp-xmlrpc-server.php:6469
+msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
+msgstr "L&rsquo;adresse web spécifiée ne peut pas être utilisée comme cible. Soit elle n&rsquo;existe pas, ou il ne s&rsquo;agit pas d&rsquo;une ressource reconnaissant les pings."
+
+#: wp-includes/class-wp-xmlrpc-server.php:6274
+msgid "Is there no link to us?"
+msgstr "N&rsquo;y a-t-il aucun lien vers nous&nbsp;?"
+
+#. translators: 1: file name, 2: error message
+#: wp-includes/class-wp-xmlrpc-server.php:5864
+msgid "Could not write file %1$s (%2$s)."
+msgstr "Impossible d&rsquo;écrire le fichier %1$s (%2$s)."
+
+#: wp-includes/class-wp-xmlrpc-server.php:5298
+msgid "Sorry, you are not allowed to change the page author as this user."
+msgstr "Désolé, vous n’avez pas l’autorisation de modifier l’auteur des pages sous cet identifiant."
+
+#: wp-includes/class-wp-xmlrpc-server.php:5293
+msgid "Sorry, you are not allowed to change the post author as this user."
+msgstr "Désolé, vous n’avez pas l’autorisation de modifier l’auteur de l’article sous cet identifiant."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:645
+msgid "Sorry, you are not allowed to update posts as this user."
+msgstr "Désolé, vous n’avez pas l’autorisation de mettre à jour des articles sous cet identifiant."
+
+#: wp-includes/class-wp-customize-nav-menus.php:790
+#: wp-includes/class-wp-xmlrpc-server.php:1331
+#: wp-includes/class-wp-xmlrpc-server.php:1815
+#: wp-includes/class-wp-xmlrpc-server.php:3323
+#: wp-includes/class-wp-xmlrpc-server.php:4138
+#: wp-includes/class-wp-xmlrpc-server.php:4902
+#: wp-includes/class-wp-xmlrpc-server.php:4960
+#: wp-includes/class-wp-xmlrpc-server.php:5238
+#: wp-includes/class-wp-xmlrpc-server.php:5302 wp-includes/post.php:1160
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:128
+msgid "Invalid post type."
+msgstr "Type de contenu non valide."
+
+#: wp-includes/class-wp-xmlrpc-server.php:1358
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1129
+msgid "Sorry, you are not allowed to publish posts in this post type."
+msgstr "Désolé, vous n’avez pas l’autorisation de publier des articles avec ce type de contenu."
+
+#: wp-includes/class-wp-xmlrpc-server.php:4724
+#: wp-includes/class-wp-xmlrpc-server.php:4796
+#: wp-includes/class-wp-xmlrpc-server.php:5628
+#: wp-includes/class-wp-xmlrpc-server.php:6162
+msgid "Sorry, no such post."
+msgstr "Désolé, aucun article ne correspond."
+
+#: wp-includes/class-wp-xmlrpc-server.php:4733
+#: wp-includes/class-wp-xmlrpc-server.php:5407
+#: wp-includes/class-wp-xmlrpc-server.php:6217
+msgid "Sorry, you are not allowed to publish this post."
+msgstr "Désolé, vous n’avez pas l’autorisation de publier sur cet article."
+
+#: wp-includes/class-wp-xmlrpc-server.php:4564
+#: wp-includes/class-wp-xmlrpc-server.php:5946
+msgid "Either there are no posts, or something went wrong."
+msgstr "Soit il n&rsquo;y a pas d&rsquo;articles, soit une erreur s&rsquo;est produite."
+
+#: wp-includes/class-wp-xmlrpc-server.php:3911
+msgid "Sorry, you are not allowed to update options."
+msgstr "Désolé, vous n’avez pas l’autorisation de mettre à jour les options."
+
+>>>>>>> dev
 #: wp-includes/class-wp-xmlrpc-server.php:3713
 msgid "Sorry, you are not allowed access to details of this post."
 msgstr "Désolé, vous n’avez pas l’autorisation d’accéder aux détails de cet article."

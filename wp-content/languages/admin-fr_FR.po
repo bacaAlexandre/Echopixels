@@ -2,7 +2,9 @@
 # This file is distributed under the same license as the WordPress - 4.8.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-06-15 06:56:04+0000\n"
+
+"PO-Revision-Date: 2017-06-09 13:04:12+0000\n"
+
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -665,6 +667,13 @@ msgstr "Cela remplacera le contenu actuel de l’éditeur par la dernière versi
 msgid "Close media attachment panel"
 msgstr "Fermer le panneau des fichiers attachés."
 
+<<<<<<< HEAD
+=======
+#: wp-admin/users.php:317 wp-admin/users.php:348
+msgid "Sorry, you are not allowed to remove users."
+msgstr "Désolé, vous n’avez pas l’autorisation de supprimer les utilisateurs."
+
+>>>>>>> dev
 #: wp-admin/includes/ms.php:1096
 msgid "Info"
 msgstr "Info"
